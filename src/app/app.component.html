@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg bg-body-tertiary navbar-dark bg-black">
+<nav class="navbar navbar-expand-lg bg-body-tertiary navbar-dark bg-dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Relax-Go</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -10,11 +10,40 @@
         <a class="nav-link" href="#">Destinazioni</a>
         <a class="nav-link" href="#">Contatti</a>
       </div>
+      <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../assets/images/spiaggia1.webp" class="d-block w-60" alt="50">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/images/spiaggia3.webp" class="d-block w-60" alt="50">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/images/spiaggia1.webp" class="d-block w-60" alt="50">
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </div>
   </div>
 </nav>
-<div class="container-titolo">
-  <h2>Relax-Go</h2>
-  <p class ="paragrafo">Realtà</p>
+
+
+
+
+
+<div class="container- titolo">
+  <h2>Ogni tuo desiderio sarà per noi una meta.</h2>
+  <p class ="paragrafo"> Prenota ora!</p>
+  <h2 [ngClass]="evidenziato ? 'testoEvidenziato' : ''" (click)="onEvidenziazione()" style='cursor:pointer'>Benvenuti in Relax-Go</h2>
+  <p class="paragrafo" [ngStyle]= "{'background-color' : evidenziato ? 'green' : 'white'}">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam perferendis tempora ipsam iste voluptatibus velit a quia esse nemo error, repellat molestiae eius quaerat accusamus saepe quae quos consequatur nisi!
 </div>
 <router-outlet></router-outlet>
