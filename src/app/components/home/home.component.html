@@ -1,16 +1,14 @@
 <app-header></app-header>
-<app-carousel></app-carousel>
-
-
 <div id="main-container">
-    <div class="container-titolo">
-      <h2 [ngClass]="evidenziato ? 'testoEvidenziato' : ''" (click)="onEvidenziazione()" style='cursor:pointer'>Benvenuti in Relax-Go</h2>
-      <p class="paragrafo" [ngStyle]= "{'background-color' : evidenziato ? 'yellow' : 'white'}">
-           
-
-      </p>
-    </div>
+  <div class="container-titolo">
+    <h2 [ngClass]="evidenziato ? 'testoEvidenziato' : ''" (click)="onEvidenziazione()" style='cursor:pointer'>Benvenuti in Relax-Go</h2>
+  </div>
 </div>
 
-<app-viaggi></app-viaggi>
+<div class="row">
+  <div class="column"><app-carousel></app-carousel></div>
+  <div class="column"><app-viaggi></app-viaggi></div>
+</div>
+
+
 <app-footer></app-footer>

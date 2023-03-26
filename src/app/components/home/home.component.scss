@@ -2,10 +2,23 @@
     h2{
       font-size:35px;
       color:aquamarine(13,182,90);
-      font-family: 'Homemade Apple', cursive;
+      font-family: 'Verdana', cursive;
+      text-align:center;
     };
     .paragrafo {
       font-size:15px;
       text-align: justify;
     }
+}
+
+
+.row {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
 }
