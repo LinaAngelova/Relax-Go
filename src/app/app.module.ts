@@ -9,6 +9,7 @@ import { HomeComponent } from './components/home/home.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { ViaggiComponent } from './components/viaggi/viaggi.component';
+import { TripCardComponent } from './shared/trip-card/trip-card.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,6 +18,7 @@ import { ViaggiComponent } from './components/viaggi/viaggi.component';
     FooterComponent,
     HeaderComponent,
     ViaggiComponent,
+    TripCardComponent,
   ],
   imports: [
     BrowserModule,
