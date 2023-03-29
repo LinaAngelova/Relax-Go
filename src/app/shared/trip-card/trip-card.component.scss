@@ -1,39 +1,51 @@
 .card-container {
-     display: block;
-     float: left;
-     width: 23%;
-     margin-left: 1.6%;
-     margin-bottom: 20px;
-  
-     .card-image {
-       height: 200px;
-       background-size: cover;
-       background-position: center;
-       background-repeat: no-repeat;
-       border-radius: 10px;
-     }
-  
-     .card-body {
-       text-align: center;
-      
-       .card-title {
-         margin-top: 15px;
-         font-weight: bold;
-         font-size: 20px;
-         color: #8e210b;
-       }
-  
-       .card-text {
-         margin-top: 0px;
-         text-align: justify;
-         height: 200px;
-       }
-  
-       a.btn.btn-primary {
-         background: #8e210b;
-         border: none;
-         margin: auto;
-         padding: 8px 35px;
-     }
-   } 
- }
+  display: block;
+  float: left;
+  width: 23%;
+  margin-left: 1.6%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: gray;
+  border-width:1px;
+
+
+  .card-image {
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+
+  .card-body {
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding:0px;
+
+    .card-title {
+      margin-top: 15px;
+      font-weight: bold;
+      font-size: 20px;
+      color: #8e210b; 
+      margin-bottom: 0px;
+    }
+
+    .card-text {
+      margin-top: 0px;
+      text-align: justify;
+      height: 250px!important
+    }
+
+    a.btn.btn-primary {
+      background: #8e210b;
+      border: none;
+      margin: auto;
+      padding: 8px 35px;
+      margin-bottom: 1px;
+   }
+ } 
+}
+

@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Observable, of} from 'rxjs';
-import { TRIP } from '../mocks/trip.mock';
 import { Trip } from '../models/trip.model';
+import { TRIP } from '../mocks/trip.mock';
 
 @Injectable({
   providedIn: 'root'

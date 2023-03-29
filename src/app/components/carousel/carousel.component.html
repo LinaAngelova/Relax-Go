@@ -1,4 +1,4 @@
-<ngb-carousel *ngIf="images.length > 1; else noSlide" [interval] ="5000">
+<ngb-carousel *ngIf="images.length > 1; else noSlide" [interval] ="4000">
 	<ng-template ngbSlide *ngFor="let image of images; let i = index">
 		<div class="picsum-img-wrapper" style="align-self: center; width: 100%;">
 			    <img  class="centro" [src]="percorso + image.id + '.webp'" [alt]="image.label"/>

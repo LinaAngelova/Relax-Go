@@ -1,24 +1,29 @@
+
+
+#main-container {
+  padding: 20px,20px;
+  text-align: center;
+}
+
 .container-titolo{
     h2{
       font-size:35px;
       color:aquamarine(13,182,90);
       font-family: 'Verdana', cursive;
       text-align:center;
-    };
+    }
+
     .paragrafo {
       font-size:15px;
       text-align: justify;
     }
+
+    .row {
+      display: block;
+      flex: 100%;
+      padding: 10px;
+    }
+
 }
 
 
-.row {
-  display: flex;
-}
-
-/* Create two equal columns that sits next to each other */
-.column {
-  flex: 50%;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
-}

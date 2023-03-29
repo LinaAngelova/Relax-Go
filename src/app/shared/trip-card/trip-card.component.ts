@@ -13,12 +13,20 @@ export class TripCardComponent implements OnInit{
       urlImage : "carousel-1.webp"
     },
     {
-        _id: 2,
-        title: 'Vacanze in Europa',
-        description: 'E se ami le città, prenota un volo+hotel e visita Barcellona, Londra, Amsterdam o Lisbona: la vacanza è anche in città! Che tu voglia viaggiare in coppia, da solo, con la famiglia o in gruppo, le vacanze ti stanno aspettando.',
-        urlImage : "carousel-1.webp"
-      }
+      _id: 2,
+      title: 'Vacanze in Europa',
+      description: 'E se ami le città, prenota un volo+hotel e visita Barcellona, Londra, Amsterdam o Lisbona: la vacanza è anche in città! Che tu voglia viaggiare in coppia, da solo, con la famiglia o in gruppo, le vacanze ti stanno aspettando.',
+      urlImage : "carousel-2.webp"
+    },
+    {
+      _id: 3,
+      title: 'Parigi',
+      description: 'E se ami le città, prenota un volo+hotel e visita Barcellona, Londra, Amsterdam o Lisbona: la vacanza è anche in città! Che tu voglia viaggiare in coppia, da solo, con la famiglia o in gruppo, le vacanze ti stanno aspettando.',
+      urlImage : "parigi.jpg"
+    }
   ];
+
+  percorso = "../assets/images/";
 
   constructor() {};
 

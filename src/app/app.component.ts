@@ -7,12 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'RElax-Go';
-
+  
+  
 
 
   evidenziato=false;
   onEvidenziazione(){
-  this.evidenziato=!this.evidenziato;
+  
+    this.evidenziato=!this.evidenziato;
   }
   
   }

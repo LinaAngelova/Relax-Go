@@ -1,8 +1,8 @@
 <div class="card-container" *ngFor="let trip of list">
-    <div class="card-image" [ngStyle]="{'background-image': 'url(' + trip.urlImage + ')'}"></div>
+    <div class="card-image" [ngStyle]="{'background-image': 'url('+ percorso + trip.urlImage +')'}"></div>
     <div class="card-body">
       <h5 class="card-title">{{trip.title}}</h5>
       <p class="card-text">{{trip.description}} </p>
-      <a href="#" class="btn btn-primary">Visualizza</a>
+      <a class="btn btn-primary" routerLink="/viaggio/dettaglio/{{trip.title}}/{{trip._id}}">Visualizza</a>
     </div>
 </div>

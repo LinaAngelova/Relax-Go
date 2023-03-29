@@ -1,14 +1,14 @@
 nav {
   background-color:aquamarine;
-  color: black;
+  color:black!important;
   width: 100%;
   margin-top: 0px;
   padding: 10px;
-  height: 50px;
+  height: 70px;
 }
 
 .navbar-nav {
-  color: #000;
+  color:black!important;
 }
 
 .mat-icon{
@@ -20,4 +20,10 @@ nav {
   
 .foto {
     width: 100%;
+}
+
+.icona-relax{
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
 }

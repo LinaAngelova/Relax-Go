@@ -1,7 +1,5 @@
-<div class="scroll"> 
-    <small *ngFor="let obj of list; let i = index"> 
-     <b>{{ obj.title }}</b>  <br>
-      {{ obj.description }} <br>
-    </small>
-</div>
-
+<ul> 
+  <li *ngFor="let obj of list; let i = index"> 
+    {{ i + 1 }} - {{ obj.title }}  {{ obj.description }} 
+  </li>
+</ul>
